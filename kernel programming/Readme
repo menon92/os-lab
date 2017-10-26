@@ -1,1 +1,8 @@
 
+## Run command
+```sh
+sudo insmod helloworld.ko # insert in kernel
+sudo rmmod helloworld.ko  # delete from kernel
+
+dmesg | tail              # see the output of module
+```
