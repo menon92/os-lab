@@ -2,7 +2,7 @@
 # administrator can edit files without fear.
 
 ### Check list #### 
-# chmd
+# chmod
 # cp
 ##################
 
