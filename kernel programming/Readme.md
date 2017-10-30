@@ -1,6 +1,5 @@
 
 ## How to run kernel module
-----------------------------
 ### For running kernel module you need two file 
 * Makefile
 * name_of_code.c file
@@ -17,7 +16,6 @@ First Configure your `Makefile` according to your `.c` file. A normal `Makefile`
 ```
 
 ## Compile code
----------------
 Go to your source code directory and run
 ```sh
 
