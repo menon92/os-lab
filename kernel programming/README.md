@@ -25,3 +25,6 @@ Go to your source code directory and run
 
      dmesg | tail                         # see the output of module
 ```
+## An error that cant hell your life
+if you get `make[1]: *** No rule to make target 'programming'.  Stop` error after run make command
+then just rename the `kernel programming` directory to `kernelprogramming`
