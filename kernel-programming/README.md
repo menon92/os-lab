@@ -23,7 +23,7 @@ Go to your source code directory and run
      sudo insmod name_of_your_program.ko  # insert in kernel
      sudo rmmod name_of_your_program.ko   # delete from kernel
 
-     dmesg | tail                         # see the output of module
+     dmesg | tail -n 3                    # see the output of module
 ```
 ## An error that can hell your life
 if you get `make[1]: *** No rule to make target 'programming'.  Stop` error after run make command
