@@ -10,20 +10,21 @@
 # 	Test with zero, one, three and over ten arguments.
 
 
-# 1 Display the name of the script being executed.
-find shell -executable -type f # hare shell is shell is an directory.
-
-# 2 Display the first, third and tenth argument given to the script.
-
+echo "Script name : $0"
 echo "First arugment is : $1"
 echo "Third argument is : $3"
-echo "Tenth arugment is : $10"
+echo "Tenth arugment is : ${10}"
 
 # 3 Display the total number of arguments passed to the script.
 
 echo "Total number of program passed to this script : $#"
 
+[ "$#" -gt 3 ] && shift 3
+echo "After shifting parameters are $#"
 
-#6 Print the number of arguments.
+[ "$#" -gt 0 ]
 
-echo "Print the number of arguments $@"
+echo "The value of remaining arguments are $*"
+
+echo "number of arguemnt $#"
+
