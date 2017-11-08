@@ -10,7 +10,7 @@ int main(int argc,char *argv[] )
 	file1 = argv[1];
 	file2 = argv[2];
 	
-	printf("file1=%s file2=%s",file1, file2);
+	printf("Name of file1 is = %s name of file2 is = %s\n",file1, file2);
 	fd1 = open(file1, O_RDONLY, 0777);
 	fd2 = creat(file2, 0777);
 
