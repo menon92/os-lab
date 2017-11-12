@@ -4,3 +4,6 @@
    bash name_of_script.sh
 ```
 
+# Learn Linux 
+- https://linuxjourney.com/
+- https://sh.howtocode.com.bd/
